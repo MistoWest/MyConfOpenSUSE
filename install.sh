@@ -17,7 +17,7 @@ sudo zypper install -y \
     alacritty neovim lazygit ripgrep bottom tree-sitter unzip zip xclip wl-clipboard \
     \
     # Linguagens e compiladores
-    go rust python3 python3-pip nodejs npm tinygo luajit \
+    go rust python3 python3-pip nodejs npm tinygo luajit zig \
     \
     # Suporte gráfico (Mesa, Vulkan, X11, XCB, Qt)
     Mesa Mesa-demo-x libvulkan1 vulkan-tools \
