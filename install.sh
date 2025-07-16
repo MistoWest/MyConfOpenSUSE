@@ -33,5 +33,8 @@ sudo zypper install -y \
     # comunicação
     discord \
 
-    zsh
+    zsh \
+
+    # Make 
+    make cmake
     
