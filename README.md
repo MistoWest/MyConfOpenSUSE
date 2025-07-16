@@ -1,0 +1,2 @@
+# MyConfOpenSUSE
+- :D
