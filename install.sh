@@ -31,5 +31,7 @@ sudo zypper install -y \
     steam \
 
     # comunicação
-    discord
+    discord \
+
+    zsh
     
