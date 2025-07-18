@@ -36,5 +36,7 @@ sudo zypper install -y \
     zsh \
 
     # Make 
-    make cmake
+    make cmake \
+
+    libstdc++6-32bit zlib-devel-32bit libncurses5-32bit libbz2-1-32bit
     
