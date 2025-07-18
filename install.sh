@@ -40,3 +40,5 @@ sudo zypper install -y \
 
     libstdc++6-32bit zlib-devel-32bit libncurses5-32bit libbz2-1-32bit
     
+    
+sudo zypper in -t pattern kvm_server kvm_tools
