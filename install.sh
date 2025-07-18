@@ -42,3 +42,4 @@ sudo zypper install -y \
     
     
 sudo zypper in -t pattern kvm_server kvm_tools
+sudo usermod -a -G libvirt $USER
