@@ -38,8 +38,9 @@ sudo zypper install -y \
     # Make 
     make cmake \
 
-    libstdc++6-32bit zlib-devel-32bit libncurses5-32bit libbz2-1-32bit
+    libstdc++6-32bit zlib-devel-32bit libncurses5-32bit libbz2-1-32bit 
     
     
 sudo zypper in -t pattern kvm_server kvm_tools
+sudo zypper in java-21-openjdk-devel
 sudo usermod -a -G libvirt $USER
