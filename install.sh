@@ -39,8 +39,10 @@ sudo zypper install -y \
     make cmake \
 
     libstdc++6-32bit zlib-devel-32bit libncurses5-32bit libbz2-1-32bit 
-    
-    
+
+sudo zypper install -t pattern devel_basis
+sudo zypper install cmake gcc-c++ ninja gettext-tools libtool autoconf automake pkg-config unzip curl doxygen
+
 sudo zypper in -t pattern kvm_server kvm_tools
 sudo zypper in java-21-openjdk-devel
 sudo usermod -a -G libvirt $USER
